@@ -1,0 +1,240 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #9ba9eb;
+  background-size: cover;
+}
+
+.app-logo {
+  height: 60px;
+  width: 200px;
+}
+.password-manager {
+  height: 400px;
+  width: 400px;
+}
+.upper-container {
+  height: 50%;
+  width: 80%;
+  background-color: #5763a5;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  padding: 30px;
+  margin: 15px;
+}
+
+@media screen and (max-width: 365px) {
+  .upper-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.card-container {
+  max-height: 400px;
+  width: 500px;
+  background-color: #454f84;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+
+.heading2 {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 30px;
+  margin-right: 0px;
+}
+
+.website-container {
+  width: 80%;
+  height: 50px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+.name-container {
+  width: 80%;
+  height: 50px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+.password-container {
+  width: 80%;
+  height: 50px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+.website {
+  height: 40px;
+  width: 50px;
+  margin-right: 0px;
+  padding: 5px;
+}
+
+.line {
+  border: solid 1px black;
+  height: 100%;
+}
+
+.input {
+  height: 50px;
+  width: 100%;
+  outline: none;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 20px;
+  padding-left: 8px;
+  font-family: 'Roboto';
+}
+
+.button {
+  background-color: #0b69ff;
+  height: 30px;
+  width: 80px;
+  border-radius: 5px;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  margin-left: 300px;
+}
+
+.my-password-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-container {
+  height: 30px;
+  width: 300px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  margin-left: 350px;
+}
+
+.search {
+  height: 25px;
+  width: 30px;
+  padding: 3px;
+}
+
+.input2 {
+  height: 30px;
+  width: 100%;
+  outline: none;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 20px;
+  padding-left: 8px;
+  font-family: 'Roboto';
+}
+
+.span {
+  height: 30px;
+  width: 30px;
+  font-size: 20px;
+  background-color: #454f84;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0px;
+}
+
+.line2 {
+  width: 100%;
+  border: solid 1px #ffffff;
+  margin: 10px;
+}
+
+.lower-container {
+  height: 50%;
+  width: 80%;
+  background-color: #5763a5;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 30px;
+  margin: 15px;
+}
+
+.label {
+  font-family: 'Roboto';
+  font-size: 19px;
+  color: #ffffff;
+  font-weight: 400;
+  text-align: right;
+}
+
+.no-passwords {
+  height: 300px;
+  width: 400px;
+}
+
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.password-list {
+  height: 200px;
+  width: 300px;
+  border: solid 1px #ffffff;
+  border-radius: 10px;
+}
+
+.stars {
+  height: 30px;
+  width: 100px;
+}
